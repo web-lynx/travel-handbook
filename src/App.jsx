@@ -1,11 +1,14 @@
-import './App.css';
+import "./App.css";
+import Header from "./Components/Header";
+import Search from "./Components/Search";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <Header />
+      <Search />
     </div>
   );
-}
+};
 
 export default App;
